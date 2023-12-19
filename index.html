@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style/global.css" />
+    <link rel="stylesheet" href="./style/main.css" />
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -44,27 +45,45 @@
               <span class="navbar-toggler-icon"></span>
             </button>
           </div>
-          <ul class="navbar-nav gap-1 d-flex justify-content-start">
-            <li class="nav-item">
+          <ul class="navbar-nav d-flex justify-content-start">
+            <li class="nav-item fs-5">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item fs-5">
               <a class="nav-link" href="#">Articles</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item fs-5">
               <a class="nav-link" href="#">Chat</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item fs-5">
               <a class="nav-link" href="#">About</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
-    <main>
-      <div class="small-columns">
-        <div class="small-column-text"></div>
-        <div class="small-column-text"></div>
+    <main class="p-3">
+      <div id="small-menu d-flex">
+        <div
+          class="small-content col-7 d-flex flex-column gap-2 justify-content-start p-1"
+        >
+          <h2 class="fs-6">Heading one text smsm</h2>
+          <div class="small-menu-texts d-flex flex-column p-2">
+            <small class="small-text-item">Some paragraph text</small>
+            <small class="small-text-item">Some paragraph text</small>
+            <small class="small-text-item">Some paragraph text</small>
+            <small class="small-text-item">Some paragraph text</small>
+          </div>
+        </div>
+        <div class="small-content col-5 d-flex flex-column gap-2 p-1">
+          <h2 class="fs-6">Heading two text sms</h2>
+          <div class="small-menu-texts d-flex flex-column p-2">
+            <small class="small-text-item">Some paragraph text</small>
+            <small class="small-text-item">Some paragraph text</small>
+            <small class="small-text-item">Some paragraph text</small>
+            <small class="small-text-item">Some paragraph text</small>
+          </div>
+        </div>
       </div>
       <div class="text-left-and-image">
         <div class="long-text">
