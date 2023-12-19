@@ -10,8 +10,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./style/global.css" />
-    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,7 +21,9 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3 w-100">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark p-3 w-100 text-white"
+      >
         <div
           class="container-fluid d-flex flex-column align-items-start gap-1 flex-lg-row justify-content-lg-between"
           id="navbarNav"
@@ -85,7 +86,7 @@
           </div>
         </div>
       </div>
-      <div class="text-left-and-image d-flex pt-3 pb-2">
+      <div class="full-article-section d-flex pt-3 pb-2">
         <div class="full-article col-8">
           <h3 class="px-3 pb-3 fs-2">Lorem ipsum</h3>
           <div class="full-article-text d-flex flex-column gap-1 pe-2">
@@ -112,70 +113,69 @@
           </div>
         </div>
         <img
-          src=""
+          src="./images/learning_swedish.jpg"
           alt="full-article-img"
-          width="200"
           height="300"
-          class="full-article-img container col-4 border border-3 border-primary rounded mt-5 py-2 px-1"
+          class="full-article-img container-fluid col-4 px-1 pt-5 pb-1"
         />
       </div>
-      <div class="strecthed-image-articles">
+      <div class="article-card-section">
         <h3 class="px-3 pb-3 fs-2">Lorem ipsum stretched</h3>
-        <div class="stretched-articles d-flex flex-column gap-3">
-          <div class="col-12 stretched-image-article rounded shadow">
+        <div class="article-cards d-flex flex-column gap-3">
+          <div class="card border-0 rounded shadow">
             <img
               src="./images/learning_swedish.jpg"
               alt="swedish-words"
-              class="col-12 rounded"
+              class="card-img rounded"
               height="200"
             />
-            <div class="strecthed-text d-flex flex-column gap-1 px-2 pt-3 pb-2">
-              <h4 class="pt-1 ps-1 fs-5 fw-bold">Stretched title</h4>
+            <div class="card-text d-flex flex-column gap-1 px-2 pt-3 pb-2">
+              <h4 class="card-title ps-1 fs-5 fw-bold">Stretched title</h4>
               <p class="p-1">
                 Curabitur libero dui, pretium a vulputate ut, feugiat et diam.
                 Fusce condimentum lacus a tellus placerat
               </p>
             </div>
           </div>
-          <div class="col-12 stretched-image-article border rounded shadow">
+          <div class="card border-0 rounded shadow">
             <img
               src="./images/deeply_interning.jpg"
-              alt="zucchini"
-              class="col-12 rounded"
+              alt="yellow-eggplant"
+              class="card-img rounded"
               height="200"
             />
-            <div class="strecthed-text d-flex flex-column gap-1 px-2 pt-3 pb-2">
-              <h4 class="pt-1 ps-1 fs-5 fw-bold">Stretched title</h4>
+            <div class="card-text d-flex flex-column gap-1 px-2 pt-3 pb-2">
+              <h4 class="card-title ps-1 fs-5 fw-bold">Stretched title</h4>
               <p class="p-1">
                 Curabitur libero dui, pretium a vulputate ut, feugiat et diam.
                 Fusce condimentum lacus a tellus placerat
               </p>
             </div>
           </div>
-          <div class="col-12 stretched-image-article border rounded shadow">
+          <div class="card border-0 rounded shadow">
             <img
               src="./images/visit_sweden.jpg"
               alt="rocky-forest-landscape"
-              class="col-12 rounded"
+              class="card-img rounded"
               height="200"
             />
-            <div class="strecthed-text d-flex flex-column gap-1 px-2 pt-3 pb-2">
-              <h4 class="pt-1 ps-1 fs-5 fw-bold">Stretched title</h4>
+            <div class="card-text d-flex flex-column gap-1 px-2 pt-3 pb-2">
+              <h4 class="card-title ps-1 fs-5 fw-bold">Stretched title</h4>
               <p class="p-1">
                 Curabitur libero dui, pretium a vulputate ut, feugiat et diam.
                 Fusce condimentum lacus a tellus placerat
               </p>
             </div>
           </div>
-          <div class="col-12 stretched-image-article border rounded shadow">
+          <div class="card border-0 rounded shadow">
             <img
               src="./images/dreamland.jpg"
-              alt="pink-sunset"
-              class="col-12 rounded"
+              alt="intense-pink-sunset"
+              class="card-img rounded"
               height="200"
             />
-            <div class="strecthed-text d-flex flex-column gap-1 px-2 pt-3 pb-2">
-              <h4 class="pt-1 ps-1 fs-5 fw-bold">Stretched title</h4>
+            <div class="card-text d-flex flex-column gap-1 px-2 pt-3 pb-2">
+              <h4 class="card-title ps-1 fs-5 fw-bold">Stretched title</h4>
               <p class="p-1">
                 Curabitur libero dui, pretium a vulputate ut, feugiat et diam.
                 Fusce condimentum lacus a tellus placerat
@@ -186,9 +186,9 @@
       </div>
     </main>
     <footer
-      class="bg-secondary col-12 d-flex flex-column justify-content-center align-items-center p-3 gap-1"
+      class="col-12 d-flex flex-column justify-content-center align-items-center p-3 mt-2 gap-1"
     >
-      <h5>Footer title</h5>
+      <h5>Follow</h5>
       <div class="footer-content p-2 d-flex flex-column gap-1">
         <div class="social-media-icons d-flex justify-content-center gap-1">
           <a href="#">
