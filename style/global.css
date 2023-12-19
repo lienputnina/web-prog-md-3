@@ -1,6 +1,8 @@
-/* * {
-    box-sizing: border-box;
-  } */
+/* Todo  -  change navbar letter size on lg mode*/
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
