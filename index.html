@@ -25,7 +25,7 @@
         class="navbar navbar-expand-lg navbar-dark bg-dark p-3 w-100 text-white"
       >
         <div
-          class="container-fluid d-flex flex-column align-items-start gap-1 flex-lg-row justify-content-lg-between"
+          class="container-fluid d-flex flex-column align-items-start gap-1 flex-lg-row"
           id="navbarNav"
         >
           <div
@@ -61,8 +61,8 @@
         </div>
       </nav>
     </header>
-    <main class="p-3 d-flex flex-column gap-1">
-      <div class="small-menu d-flex">
+    <main class="p-3 d-flex flex-column gap-1 flex-lg-row">
+      <div class="small-menu container-fluid flex-lg-column gap-lg-5 col-lg-4">
         <div
           class="small-content col-7 d-flex flex-column gap-2 justify-content-start p-1"
         >
@@ -84,7 +84,9 @@
           </div>
         </div>
       </div>
-      <div class="full-article-section d-flex pt-3 pb-2">
+      <div
+        class="full-article-section container-fluid d-flex pt-3 pb-2 col-lg-8"
+      >
         <div class="full-article col-8">
           <h1 class="px-3 pb-3 fs-2">Lorem ipsum</h1>
           <div class="full-article-text d-flex flex-column gap-1 pe-2">
@@ -117,10 +119,12 @@
           class="full-article-img container-fluid col-4 px-1 pt-5 pb-1"
         />
       </div>
-      <div class="article-card-section">
+      <div class="article-card-section container-fluid col-lg-8">
         <h2 class="px-3 pb-3 fs-2">Lorem ipsum stretched</h2>
-        <div class="article-cards d-flex flex-column gap-3">
-          <div class="card border-0 rounded shadow">
+        <div
+          class="article-cards d-flex flex-column gap-3 flex-lg-row col-lg-7"
+        >
+          <div class="card border-0 rounded shadow col-lg-6">
             <img
               src="./images/learning_swedish.jpg"
               alt="swedish-words"
@@ -135,7 +139,7 @@
               </p>
             </div>
           </div>
-          <div class="card border-0 rounded shadow">
+          <div class="card border-0 rounded shadow col-lg-6">
             <img
               src="./images/deeply_interning.jpg"
               alt="yellow-eggplant"
@@ -150,7 +154,7 @@
               </p>
             </div>
           </div>
-          <div class="card border-0 rounded shadow">
+          <div class="card border-0 rounded shadow col-lg-6">
             <img
               src="./images/visit_sweden.jpg"
               alt="rocky-forest-landscape"
@@ -165,7 +169,7 @@
               </p>
             </div>
           </div>
-          <div class="card border-0 rounded shadow">
+          <div class="card border-0 rounded shadow col-lg-6">
             <img
               src="./images/dreamland.jpg"
               alt="intense-pink-sunset"
