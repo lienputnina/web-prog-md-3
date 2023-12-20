@@ -1,10 +1,11 @@
 /* Todo  -  change navbar letter size on lg mode*/
-/* Todo  -  make images take certain amount of rows or floated images?*/
 /* Todo  -  change colors for everything*/
 /* Todo  -  delete todo after finishing*/
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -27,17 +28,17 @@ h6 {
   padding: 0;
 }
 
-p {
-  margin: 0;
-}
-
 a {
   text-decoration: none;
 }
 
-.some-text {
+.full-article-paragraph {
   text-indent: 1.5em;
   text-align: justify;
+}
+
+.full-article-img {
+  height: 400px;
 }
 
 .social-icon {
@@ -45,15 +46,20 @@ a {
   height: 36px;
 }
 
-/* .navbar {
-  background-color: #344224;
-  color: #ffffff;
-} */
-
 .card-text {
   background-color: #d7cfbd;
 }
 
 footer {
   background-color: #d8e2cb;
+}
+
+@media all and (min-width: 500px) {
+  .full-article-img {
+    height: 300px;
+  }
+
+  .card-img {
+    height: 400px;
+  }
 }
