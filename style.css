@@ -1,7 +1,3 @@
-/* Todo  -  change colors for everything*/
-/* Todo  -  check class names*/
-/* Todo  -  delete todo after finishing*/
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -28,25 +24,21 @@ h6 {
   padding: 0;
 }
 
-a {
+#long-article-link {
   text-decoration: none;
   color: #5f804b;
 }
 
-a:visited {
-  color: #5f804b;
-}
-
-a:hover {
+#long-article-link:hover {
   color: #a8bb92;
 }
 
-.full-article-paragraph {
+.long-article-paragraph {
   text-indent: 1.5em;
   text-align: justify;
 }
 
-.full-article-img {
+.long-article-img {
   height: 400px;
 }
 
@@ -57,6 +49,7 @@ a:hover {
 
 .card-text {
   background-color: #d7cfbd;
+  height: 100%;
 }
 
 footer {
@@ -64,7 +57,7 @@ footer {
 }
 
 @media all and (min-width: 500px) {
-  .full-article-img {
+  .long-article-img {
     height: 300px;
   }
 
