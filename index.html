@@ -25,11 +25,11 @@
         class="navbar navbar-expand-lg navbar-dark bg-dark p-3 w-100 text-white"
       >
         <div
-          class="container-fluid d-flex flex-column align-items-start gap-1 flex-lg-row"
+          class="nav-contents container-fluid d-flex flex-column align-items-start gap-1 flex-lg-row"
           id="navbarNav"
         >
           <div
-            class="navbar-title d-flex justify-content-between align-items-center w-100"
+            class="navbar-title d-flex justify-content-between align-items-center col-lg-4 justify-content-lg-end"
           >
             <a class="navbar-brand fs-2" href="#">Adventures in Sweden</a>
             <button
@@ -44,7 +44,9 @@
               <span class="navbar-toggler-icon"></span>
             </button>
           </div>
-          <ul class="navbar-nav d-flex justify-content-start">
+          <ul
+            class="navbar-nav d-flex justify-content-start col-lg-8 justify-content-lg-center gap-lg-3"
+          >
             <li class="nav-item fs-5">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -61,127 +63,153 @@
         </div>
       </nav>
     </header>
-    <main class="p-3 d-flex flex-column gap-1 flex-lg-row">
-      <div class="small-menu container-fluid flex-lg-column gap-lg-5 col-lg-4">
-        <div
-          class="small-content col-7 d-flex flex-column gap-2 justify-content-start p-1"
-        >
-          <h2 class="fs-6">Heading one text smsm</h2>
-          <div class="small-menu-texts d-flex flex-column p-2">
-            <small class="small-text-item">Some paragraph text</small>
-            <small class="small-text-item">Some paragraph text</small>
-            <small class="small-text-item">Some paragraph text</small>
-            <small class="small-text-item">Some paragraph text</small>
+    <main class="p-3 d-flex flex-column gap-1 pt-lg-4 flex-lg-row">
+      <div class="desktop-row-1 col-lg-2">
+        <div class="small-menu container-fluid d-flex flex-row flex-lg-column">
+          <div
+            class="small-section-1 container-fluid col-7 d-flex flex-column gap-1 justify-content-start p-1 col-lg-12"
+          >
+            <h2 class="fs-6">Heading one text smsm</h2>
+            <div class="small-menu-texts d-flex flex-column p-2">
+              <small class="small-text-item">Some paragraph text</small>
+              <small class="small-text-item">Some paragraph text</small>
+              <small class="small-text-item">Some paragraph text</small>
+              <small class="small-text-item">Some paragraph text</small>
+            </div>
           </div>
-        </div>
-        <div class="small-content col-5 d-flex flex-column gap-2 p-1">
-          <h2 class="fs-6">Heading two text sms</h2>
-          <div class="small-menu-texts d-flex flex-column p-2">
-            <small class="small-text-item">Some paragraph text</small>
-            <small class="small-text-item">Some paragraph text</small>
-            <small class="small-text-item">Some paragraph text</small>
-            <small class="small-text-item">Some paragraph text</small>
+          <div
+            class="small-section-2 container-fluid col-5 d-flex flex-column gap-1 justify-content-start p-1 col-lg-12"
+          >
+            <h2 class="fs-6">Heading one text smsm</h2>
+            <div class="small-menu-texts d-flex flex-column p-2">
+              <small class="small-text-item">Some paragraph text</small>
+              <small class="small-text-item">Some paragraph text</small>
+              <small class="small-text-item">Some paragraph text</small>
+              <small class="small-text-item">Some paragraph text</small>
+            </div>
           </div>
         </div>
       </div>
       <div
-        class="full-article-section container-fluid d-flex pt-3 pb-2 col-lg-8"
+        class="desktop-row-2 container-fluid d-flex flex-column col-lg-10 gap-lg-2"
       >
-        <div class="full-article col-8">
-          <h1 class="px-3 pb-3 fs-2">Lorem ipsum</h1>
-          <div class="full-article-text d-flex flex-column gap-1 pe-2">
-            <p class="some-text lh-base">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              interdum ut enim ac mollis. Nulla dignissim bibendum dolor non
-              consequat.
-            </p>
-            <p class="some-text lh-base">
-              Mauris gravida nisi urna, sit amet viverra ex elementum non. Nam
-              id libero mauris. Morbi neque orci, viverra id libero non,
-              elementum iaculis lectus.
-            </p>
-            <p class="some-text lh-base">
-              Curabitur libero dui, pretium a vulputate ut, feugiat et diam. Sed
-              dictum ullamcorper magna sed egestas. Fusce condimentum lacus a
-              tellus placerat, nec imperdiet est tincidunt. volutpat.
-            </p>
-            <p class="some-text lh-base">
-              Mauris gravida diam a orci lobortis hendrerit. Integer sagittis
-              nibh a libero rutrum, at porta erat pulvinar. Mauris id tellus ut
-              risus vehicula volutpat.
-            </p>
-          </div>
-        </div>
-        <img
-          src="./images/learning_swedish.jpg"
-          alt="full-article-img"
-          height="300"
-          class="full-article-img container-fluid col-4 px-1 pt-5 pb-1"
-        />
-      </div>
-      <div class="article-card-section container-fluid col-lg-8">
-        <h2 class="px-3 pb-3 fs-2">Lorem ipsum stretched</h2>
         <div
-          class="article-cards d-flex flex-column gap-3 flex-lg-row col-lg-7"
+          class="full-article-section container-fluid d-flex pt-3 pb-2 col-lg-12 pt-lg-0"
         >
-          <div class="card border-0 rounded shadow col-lg-6">
-            <img
-              src="./images/learning_swedish.jpg"
-              alt="swedish-words"
-              class="card-img rounded"
-              height="200"
-            />
-            <div class="card-text d-flex flex-column gap-1 px-2 pt-3 pb-2">
-              <h3 class="card-title ps-1 fs-5 fw-bold">Stretched title</h3>
-              <p class="p-1">
+          <div class="full-article">
+            <h1 class="pb-3 fs-2">Lorem ipsum</h1>
+            <div class="full-article-text d-flex flex-column gap-1 pe-2">
+              <p class="some-text lh-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                interdum ut enim ac mollis. Nulla dignissim bibendum dolor non
+                consequat.
+              </p>
+              <p class="some-text lh-base">
+                Mauris gravida nisi urna, sit amet viverra ex elementum non. Nam
+                id libero mauris. Morbi neque orci, viverra id libero non,
+                elementum iaculis lectus.
+              </p>
+              <p class="some-text lh-base">
                 Curabitur libero dui, pretium a vulputate ut, feugiat et diam.
-                Fusce condimentum lacus a tellus placerat
+                Sed dictum ullamcorper magna sed egestas. Fusce condimentum
+                lacus a tellus placerat, nec imperdiet est tincidunt. volutpat.
+              </p>
+              <p class="some-text lh-base">
+                Mauris gravida diam a orci lobortis hendrerit. Integer sagittis
+                nibh a libero rutrum, at porta erat pulvinar. Mauris id tellus
+                ut risus vehicula volutpat.
+              </p>
+              <p class="some-text lh-base">
+                Mauris gravida diam a orci lobortis hendrerit. Integer sagittis
+                nibh a libero rutrum, at porta erat pulvinar. Mauris id tellus
+                ut risus vehicula volutpat. Mauris gravida diam a orci lobortis
+                hendrerit. Integer sagittis nibh a libero rutrum, at porta erat
+                pulvinar. Mauris id tellus ut risus vehicula volutpat.
+              </p>
+              <p class="some-text lh-base">
+                Mauris gravida diam a orci lobortis hendrerit. Integer sagittis
+                nibh a libero rutrum, at porta erat pulvinar. Mauris id tellus
+                ut risus vehicula volutpat. Mauris gravida diam a orci lobortis
+                hendrerit. Integer sagittis nibh a libero rutrum, at porta erat
+                pulvinar. Mauris id tellus ut risus vehicula volutpat.
               </p>
             </div>
           </div>
-          <div class="card border-0 rounded shadow col-lg-6">
-            <img
-              src="./images/deeply_interning.jpg"
-              alt="yellow-eggplant"
-              class="card-img rounded"
-              height="200"
-            />
-            <div class="card-text d-flex flex-column gap-1 px-2 pt-3 pb-2">
-              <h3 class="card-title ps-1 fs-5 fw-bold">Stretched title</h3>
-              <p class="p-1">
-                Curabitur libero dui, pretium a vulputate ut, feugiat et diam.
-                Fusce condimentum lacus a tellus placerat
-              </p>
+          <img
+            src="./images/learning_swedish.jpg"
+            alt="full-article-img"
+            height="300"
+            class="full-article-img container-fluid col-4 px-1 pt-5 pb-1 col-lg-5"
+          />
+        </div>
+        <div class="article-card-section col-lg-12">
+          <h2 class="px-2 pb-3 fs-2">Lorem ipsum stretched</h2>
+          <div class="container-fluid article-cards d-flex flex-column gap-3">
+            <div class="first-article-row d-flex flex-column gap-3 flex-lg-row">
+              <div class="article-1 card border-0 rounded shadow col-lg-6">
+                <img
+                  src="./images/learning_swedish.jpg"
+                  alt="swedish-words"
+                  class="card-img rounded"
+                  height="200"
+                />
+                <div class="card-text d-flex flex-column gap-1 px-2 pt-3 pb-2">
+                  <h3 class="card-title ps-1 fs-5 fw-bold">Stretched title</h3>
+                  <p class="p-1">
+                    Curabitur libero dui, pretium a vulputate ut, feugiat et
+                    diam. Fusce condimentum lacus a tellus placerat
+                  </p>
+                </div>
+              </div>
+              <div class="article-2 card border-0 rounded shadow col-lg-6">
+                <img
+                  src="./images/deeply_interning.jpg"
+                  alt="yellow-eggplant"
+                  class="card-img rounded"
+                  height="200"
+                />
+                <div class="card-text d-flex flex-column gap-1 px-2 pt-3 pb-2">
+                  <h3 class="card-title ps-1 fs-5 fw-bold">Stretched title</h3>
+                  <p class="p-1">
+                    Curabitur libero dui, pretium a vulputate ut, feugiat et
+                    diam. Fusce condimentum lacus a tellus placerat
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="card border-0 rounded shadow col-lg-6">
-            <img
-              src="./images/visit_sweden.jpg"
-              alt="rocky-forest-landscape"
-              class="card-img rounded"
-              height="200"
-            />
-            <div class="card-text d-flex flex-column gap-1 px-2 pt-3 pb-2">
-              <h3 class="card-title ps-1 fs-5 fw-bold">Stretched title</h3>
-              <p class="p-1">
-                Curabitur libero dui, pretium a vulputate ut, feugiat et diam.
-                Fusce condimentum lacus a tellus placerat
-              </p>
-            </div>
-          </div>
-          <div class="card border-0 rounded shadow col-lg-6">
-            <img
-              src="./images/dreamland.jpg"
-              alt="intense-pink-sunset"
-              class="card-img rounded"
-              height="200"
-            />
-            <div class="card-text d-flex flex-column gap-1 px-2 pt-3 pb-2">
-              <h3 class="card-title ps-1 fs-5 fw-bold">Stretched title</h3>
-              <p class="p-1">
-                Curabitur libero dui, pretium a vulputate ut, feugiat et diam.
-                Fusce condimentum lacus a tellus placerat
-              </p>
+            <div
+              class="second-article-row d-flex flex-column gap-3 flex-lg-row"
+            >
+              <div class="article-3 card border-0 rounded shadow">
+                <img
+                  src="./images/visit_sweden.jpg"
+                  alt="rocky-forest-landscape"
+                  class="card-img rounded"
+                  height="200"
+                />
+                <div class="card-text d-flex flex-column gap-1 px-2 pt-3 pb-2">
+                  <h3 class="card-title ps-1 fs-5 fw-bold">Stretched title</h3>
+                  <p class="p-1">
+                    Curabitur libero dui, pretium a vulputate ut, feugiat et
+                    diam. Fusce condimentum lacus a tellus placerat
+                  </p>
+                </div>
+              </div>
+              <div class="article-4 card border-0 rounded shadow">
+                <img
+                  src="./images/dreamland.jpg"
+                  alt="intense-pink-sunset"
+                  class="card-img rounded"
+                  height="200"
+                />
+                <div class="card-text d-flex flex-column gap-1 px-2 pt-3 pb-2">
+                  <h3 class="card-title ps-1 fs-5 fw-bold">Stretched title</h3>
+                  <p class="p-1">
+                    Curabitur libero dui, pretium a vulputate ut, feugiat et
+                    diam. Fusce condimentum lacus a tellus placerat
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
