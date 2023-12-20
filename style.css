@@ -1,4 +1,5 @@
 /* Todo  -  change colors for everything*/
+/* Todo  -  check class names*/
 /* Todo  -  delete todo after finishing*/
 
 * {
@@ -29,6 +30,15 @@ h6 {
 
 a {
   text-decoration: none;
+  color: #5f804b;
+}
+
+a:visited {
+  color: #5f804b;
+}
+
+a:hover {
+  color: #a8bb92;
 }
 
 .full-article-paragraph {
